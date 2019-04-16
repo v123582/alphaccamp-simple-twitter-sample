@@ -8,15 +8,15 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      userId: {
-        type: Sequelize.INTEGER
-      },
-      tweetId: {
-        type: Sequelize.INTEGER
-      },
-      comment: {
-        type: Sequelize.TEXT
-      },
+      // userId: {
+      //   type: Sequelize.INTEGER
+      // },
+      // tweetId: {
+      //   type: Sequelize.INTEGER
+      // },
+      // comment: {
+      //   type: Sequelize.TEXT
+      // },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
